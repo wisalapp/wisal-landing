@@ -97,7 +97,7 @@ const Features = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-foreground">Smart Escalation</h3>
                   <p className="text-muted-foreground">
-                    AI confidence <80%? Instantly transfers to your staff with full context.
+                    AI confidence &lt;80%? Instantly transfers to your staff with full context.
                   </p>
                 </div>
               </div>
