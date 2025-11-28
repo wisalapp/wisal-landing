@@ -83,7 +83,7 @@ const Index = () => {
               <div className="mb-4 md:mb-6">
                 <div className="bg-muted/50 rounded-xl md:rounded-2xl p-3 md:p-4 max-w-xs ml-auto">
                   <div className="text-xs md:text-sm text-foreground leading-relaxed">
-                    [translate:أود حجز موعد غداً الساعة ٤ مساءً مع الدكتور أحمد]
+                    أود حجز موعد غداً الساعة ٤ مساءً مع الدكتور أحمد
                   </div>
                 </div>
               </div>
@@ -99,4 +99,34 @@ const Index = () => {
                 </div>
               </div>
             </div>
-          </
+          </div>
+        </div>
+      </section>
+
+      <ThreeBenefits />
+      <PricingTeaser />
+      <Testimonials />
+
+      <section className="bg-primary px-4 md:px-6 py-12 md:py-16 mt-24 md:mt-32 rounded-lg shadow-glow mx-6 -mb-24">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-2xl md:text-4xl font-bold text-primary-foreground mb-4 md:mb-6">
+            Ready to save 20+ hours per week?
+          </h2>
+          <p className="text-primary-foreground/90 mb-6 md:mb-10 text-base md:text-lg">
+            Join Oman clinics who trust Wisal AI Receptionist to handle WhatsApp overload.
+          </p>
+          <div className="flex flex-col sm:flex-row justify-center gap-3 md:gap-6">
+            <Button variant="primary" size="lg" onClick={() => setShowDemoModal(true)} className="w-full sm:w-auto">
+              Book WhatsApp Demo
+            </Button>
+            <Button variant="outline" size="lg" className="w-full sm:w-auto text-primary-foreground border-primary-foreground">
+              Start Free Trial
+            </Button>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Index;
